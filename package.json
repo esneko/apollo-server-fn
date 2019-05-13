@@ -1,0 +1,24 @@
+{
+  "name": "apollo-server-fn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "esneko",
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/.bin/tsc -w",
+    "build": "node_modules/.bin/tsc",
+    "debug": "func host start --debug",
+    "lint": "echo \"Error: no lint specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server-azure-functions": "^2.5.0",
+    "graphql": "^14.3.0"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.3",
+    "@types/graphql": "^14.2.0",
+    "typescript": "^3.4.5"
+  }
+}

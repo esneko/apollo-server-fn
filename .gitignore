@@ -1,0 +1,6 @@
+bin
+obj
+node_modules
+dist
+index.js
+index.js.map
